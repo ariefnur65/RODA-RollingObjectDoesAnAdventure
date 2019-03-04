@@ -1,0 +1,70 @@
+// PlatformGeneration.cs 
+// Bagian Variable
+	//Object Pooler
+	public GameObject tutorialField;
+	public ObjectPooler theTutorialField;
+	public ObjectPooler theTutorialFieldCoin;
+	public ObjectPooler theTutorialFieldPaku;
+	public ObjectPooler theTutorialFieldJurang;
+	public ObjectPooler theTutorialFieldPenandaJurang;
+
+	//Bagian integer random
+	public int tutorialFieldThreshold;
+	public int tutorialFieldCoinThreshold;
+	public int tutorialFieldPakuThreshold;
+	public int tutorialJurangThreshold;
+	public int tutorialPenandaJurangThreshold;
+	public static  int tutorialCount = 0;
+	public string SelectField;
+
+// Void Start
+	tutorialCount = 0;
+
+// Bagian update, 
+	
+	if (TutorialSwitch.tutorialSwitch == false) 
+			{ ..... Bagian .... randomJurang ....
+}
+			else
+			{
+			//---------------------------------------TutorialFieldPooler--------------------------------------------
+				tutorialCount +=1;
+				SelectField = TutorialSwitch.SelectField;
+
+
+				if (SelectField == "Kosong") {
+					newField = theTutorialField.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+				} else if (SelectField == "Coin") {
+					newField = theTutorialFieldCoin.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+
+				} else if (SelectField == "Paku") {
+					newField = theTutorialFieldPaku.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+				} else if (SelectField == "Penanda") {
+					newField = theTutorialFieldPenandaJurang.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+				} else if (SelectField == "Jurang") {
+					newField = theTutorialFieldJurang.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+				} else 
+				{
+					newField = theTutorialField.GetPooledObject ();
+					newField.transform.position = transform.position;
+					newField.transform.rotation = transform.rotation;
+					newField.SetActive (true);
+				}
+					
+				//---------------------------------------TutorialField--------------------------------------------
+			}

@@ -1,0 +1,199 @@
+//KarakterSkrip.cs
+//Bagian Variable
+// Tutorial Manager
+	public int stateSwitch;
+	public bool jalanNormal ;
+	public static bool jumpSwitch ;
+	public static bool speedSwitch;
+	public bool nep = false ;
+
+// Void Start
+//Tutorial TextBox
+		jalanNormal = true;
+		speedSwitch = true;
+		jumpSwitch = false;
+		stateSwitch = 0;
+//Void FixedUpdate
+//Normal Switch
+		if (TutorialSwitch.tutorialSwitch == true) 
+		{
+			jalanNormal = false;
+		} 
+		else 
+		{
+			jalanNormal = true;
+		}
+
+//...Ganti Script buat jalan dengan ini...
+if (jalanNormal) {
+			if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+				if (tanahKah) {
+					//gravityX = gayaDorong;
+					myRigid.velocity = new Vector2 (lompatGaya, lompatGaya);
+					//Physics2D.gravity = new Vector2(gravityX, gravityY); //Menset gravityX dan gravityY
+					cek = 0; 
+				}
+			}
+	
+        
+			jarak = gameObject.transform.position.x - start.transform.position.x; //Jarak = jarak dari game object ke start
+			myRigid.velocity = new Vector2 (gayaDorong, myRigid.velocity.y); //Rigidbody Player di beri speed
+			kecepatanGelinding = myRigid.velocity.x; //Speed dicatat
+			tanahKah = Physics2D.IsTouchingLayers (myColider, apaItuTanah); //Jika touching tanah maka dia bisa loncat
+			//Jika touching tanah maka akan di tambah physics2D nya
+			if (tanahKah) {
+				cek = 1;
+			}
+
+			if (cek == 1) {
+				Physics2D.gravity = new Vector2 (gravityX, gravityY);
+				myCamController.iszoom = true;
+			}
+			if (cek == 0) {
+				if (thePowerManager.getAeroStatus () == true) {
+					Physics2D.gravity = new Vector2 (0f, -4.0f);
+				} else {
+					Physics2D.gravity = new Vector2 (0f, -9.81f);
+				}
+				myCamController.iszoom = false;
+			}
+		} else
+		{
+			if (speedSwitch && jumpSwitch) 
+			{
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+					if (tanahKah) {
+						//gravityX = gayaDorong;
+						myRigid.velocity = new Vector2 (lompatGaya, lompatGaya);
+						//Physics2D.gravity = new Vector2(gravityX, gravityY); //Menset gravityX dan gravityY
+						cek = 0; 
+					}
+				}
+
+
+				jarak = gameObject.transform.position.x - start.transform.position.x; //Jarak = jarak dari game object ke start
+				myRigid.velocity = new Vector2 (gayaDorong, myRigid.velocity.y); //Rigidbody Player di beri speed
+				kecepatanGelinding = myRigid.velocity.x; //Speed dicatat
+				tanahKah = Physics2D.IsTouchingLayers (myColider, apaItuTanah); //Jika touching tanah maka dia bisa loncat
+				//Jika touching tanah maka akan di tambah physics2D nya
+				if (tanahKah) {
+					cek = 1;
+				}
+
+				if (cek == 1) {
+					Physics2D.gravity = new Vector2 (gravityX, gravityY);
+					myCamController.iszoom = true;
+				}
+				if (cek == 0) {
+					if (thePowerManager.getAeroStatus () == true) {
+						Physics2D.gravity = new Vector2 (0f, -4.0f);
+					} else {
+						Physics2D.gravity = new Vector2 (0f, -9.81f);
+					}
+					myCamController.iszoom = false;
+				}
+			}
+			else if (speedSwitch) {
+				jarak = gameObject.transform.position.x - start.transform.position.x; //Jarak = jarak dari game object ke start
+				myRigid.velocity = new Vector2 (gayaDorong, myRigid.velocity.y); //Rigidbody Player di beri speed
+				kecepatanGelinding = myRigid.velocity.x; //Speed dicatat
+				tanahKah = Physics2D.IsTouchingLayers (myColider, apaItuTanah); //Jika touching tanah maka dia bisa loncat
+				//Jika touching tanah maka akan di tambah physics2D nya
+				Physics2D.gravity = new Vector2 (gravityX, gravityY);
+			} 
+			else
+			{
+				myRigid.velocity = new Vector2 (0f,0f);
+				Physics2D.gravity = new Vector2 (0f, 0f);
+				myRigid.rotation = 0;
+			}
+
+
+			// State Counter
+			if (stateSwitch == 1)
+			{
+				
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+
+					TutorialSwitch.textCoin_1 = false;
+					TutorialSwitch.textCoin_2 = true;
+					nep = true;
+				} else if (nep) 
+				{
+					stateSwitch = 2;
+				}
+			}
+
+			if (stateSwitch == 2) 
+			{
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+					nep = false;
+					TutorialSwitch.textCoin_2 = false;
+					speedSwitch = true;
+				}
+			}
+
+			if (stateSwitch == 3) 
+			{
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+
+					TutorialSwitch.textPaku_1 = false;
+					speedSwitch = true;
+					jumpSwitch = true; 
+				} 
+			}
+
+			if (stateSwitch == 4) 
+			{
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0) || Input.GetKey (KeyCode.Space) || Input.GetMouseButton (0)) {
+
+					TutorialSwitch.textPenandaJurang_1 = false;
+					speedSwitch = true;
+					jumpSwitch = false;
+					nep = true;
+				} else if (nep) 
+				{
+					stateSwitch = 5;
+				}
+				 
+			}
+			if (stateSwitch == 5) 
+			{
+				speedSwitch = true;
+				jumpSwitch = true;
+			}
+		}
+
+
+//OnTriggerEnter2d
+
+#region Tutorial Trigger
+
+		if (other.gameObject.CompareTag ("TandaCoin_2")) 
+		{
+			//Berhenti 
+			speedSwitch = false;
+			TutorialSwitch.textCoin_1 = true;
+			stateSwitch = 1;
+		}
+			
+		if (other.gameObject.CompareTag ("TandaPaku_1")) 
+		{
+			speedSwitch = false;
+			TutorialSwitch.textPaku_1 = true;
+			stateSwitch = 3;
+		}
+
+		if (other.gameObject.CompareTag ("TandaPenandaJurang_1")) 
+		{
+			speedSwitch = false;
+			TutorialSwitch.textPenandaJurang_1 = true;
+			stateSwitch = 4;
+		}
+
+		if (other.gameObject.CompareTag ("TandaJurang_2")) 
+		{
+			TutorialSwitch.tutorialSwitch = false;
+		}
+
+		#endregion

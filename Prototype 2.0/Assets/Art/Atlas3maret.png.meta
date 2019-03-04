@@ -1,0 +1,1124 @@
+fileFormatVersion: 2
+guid: 2dc9537c73f9fc245ac8756c5b4aad10
+timeCreated: 1488540423
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bg_gunung4
+    21300002: bg_gunung3
+    21300004: bg_gunung2
+    21300006: bg_gunung1
+    21300008: bg_kabut
+    21300010: pelapisatas
+    21300012: pelapisbawah
+    21300014: bg_kabutjurang
+    21300016: landmark_locked
+    21300018: timer_slowmo
+    21300020: timer_bounce
+    21300022: timer_magnet
+    21300024: timer_steel
+    21300026: timer_aero
+    21300028: coin_slowmo
+    21300030: coin_bounce
+    21300032: coin_magnet
+    21300034: coin_aero
+    21300036: coin_steel
+    21300038: upgrade_slowmo
+    21300040: upgrade_bounce
+    21300042: upgrade_magnet
+    21300044: upgrade_aero
+    21300046: upgrade_steel
+    21300048: env_bengkel
+    21300050: env_lemari
+    21300052: env_kotakkunci
+    21300054: env_ban
+    21300056: env_balonmerah
+    21300058: env_balonhijau
+    21300060: env_awankecil
+    21300062: env_awansedang
+    21300064: env_awanbesar
+    21300066: env_mobil
+    21300068: char_main
+    21300070: ban_steel
+    21300072: char_steel
+    21300074: char_red
+    21300076: char_blue
+    21300078: char_purple
+    21300080: char_blaster
+    21300082: anim_kepala
+    21300084: anim_leher
+    21300086: obs_batu1
+    21300088: obs_batu2
+    21300090: obs_batu3
+    21300092: obs_paku
+    21300094: env_awanpekat
+    21300096: anim_lenganatas
+    21300098: anim_lenganatas1
+    21300100: anim_telapaktangan
+    21300102: anim_telapaktangan1
+    21300104: anim_lenganbawah
+    21300106: anim_lenganbawah1
+    21300108: anim_paha
+    21300110: anim_paha1
+    21300112: anim_betis1
+    21300114: anim_betis
+    21300116: anim_body
+    21300118: anim_sepatu
+    21300120: obs_oli1
+    21300122: obs_oli2
+    21300124: obs_oli3
+    21300126: obs_lumpur1
+    21300128: obs_lumpur2
+    21300130: obs_lumpur3
+    21300132: Atlas3maret_5
+    21300134: Atlas3maret_6
+    21300136: ban_red
+    21300138: ban_blue
+    21300140: ban_purple
+    21300142: ban_blaster
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg_gunung4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3784
+        width: 2600
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_gunung3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2996
+        width: 2600
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_gunung2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2212
+        width: 2600
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_gunung1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1523
+        width: 2600
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_kabut
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 860
+        width: 2600
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pelapisatas
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 2600
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pelapisbawah
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 28
+        width: 2600
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_kabutjurang
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 24
+        width: 1600
+        height: 1300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: landmark_locked
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1706
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: timer_slowmo
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1712
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: timer_bounce
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 1586
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: timer_magnet
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 1458
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: timer_steel
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 1586
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: timer_aero
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1711
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin_slowmo
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 630
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin_bounce
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 505
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin_magnet
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 380
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin_aero
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 255
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin_steel
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 130
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upgrade_slowmo
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 631
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upgrade_bounce
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 506
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upgrade_magnet
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 381
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upgrade_aero
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 256
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upgrade_steel
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 131
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_bengkel
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 3983
+        width: 965
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_lemari
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 3824
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_kotakkunci
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 3888
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_ban
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 3835
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_balonmerah
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 3102
+        width: 230
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_balonhijau
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 3112
+        width: 230
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_awankecil
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 2982
+        width: 115
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_awansedang
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 2983
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_awanbesar
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 2984
+        width: 158
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_mobil
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 4166
+        width: 828
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_main
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 3983
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ban_steel
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 3983
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_steel
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 3984
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_red
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 3803
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_blue
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 3622
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_purple
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 3439
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char_blaster
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 3250
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_kepala
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 4126
+        width: 329
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_leher
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 3987
+        width: 176
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_batu1
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 3639
+        width: 598
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_batu2
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3340
+        width: 481
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_batu3
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 3003
+        width: 457
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_paku
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 3504
+        width: 387
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: env_awanpekat
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 3843
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_lenganatas
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 3303
+        width: 314
+        height: 656
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_lenganatas1
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 3350
+        width: 314
+        height: 656
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_telapaktangan
+      rect:
+        serializedVersion: 2
+        x: 4044
+        y: 2935
+        width: 150
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_telapaktangan1
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 2937
+        width: 153
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_lenganbawah
+      rect:
+        serializedVersion: 2
+        x: 4501
+        y: 2773
+        width: 175
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_lenganbawah1
+      rect:
+        serializedVersion: 2
+        x: 4757
+        y: 2765
+        width: 175
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_paha
+      rect:
+        serializedVersion: 2
+        x: 4629
+        y: 2009
+        width: 316
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_paha1
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 1213
+        width: 316
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_betis1
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 1529
+        width: 207
+        height: 647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_betis
+      rect:
+        serializedVersion: 2
+        x: 4344
+        y: 805
+        width: 207
+        height: 647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58.05223
+        height: 131.43382
+      alignment: 9
+      pivot: {x: 0.4650984, y: 0.48693708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_sepatu
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 21
+        width: 296
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_oli1
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 2517
+        width: 933
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_oli2
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 2261
+        width: 776
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_oli3
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1983
+        width: 562
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_lumpur1
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 2519
+        width: 933
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_lumpur2
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 2261
+        width: 776
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obs_lumpur3
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1983
+        width: 562
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atlas3maret_5
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1433
+        width: 478
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atlas3maret_6
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1433
+        width: 478
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ban_red
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 3803
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ban_blue
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 3620
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ban_purple
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 3438
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ban_blaster
+      rect:
+        serializedVersion: 2
+        x: 3955
+        y: 3250
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

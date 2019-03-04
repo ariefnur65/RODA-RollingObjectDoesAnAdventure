@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: ca8dba9ecb763f6449ced1690fc88f92
+timeCreated: 1487284932
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gelinding Atlas2_0
+    21300002: Gelinding Atlas2_1
+    21300004: Gelinding Atlas2_2
+    21300006: Gelinding Atlas2_3
+    21300008: Gelinding Atlas2_4
+    21300010: Gelinding Atlas2_5
+    21300012: Gelinding Atlas2_6
+    21300014: Gelinding Atlas2_7
+    21300016: Gelinding Atlas2_8
+    21300018: Gelinding Atlas2_9
+    21300020: Gelinding Atlas2_10
+    21300022: Gelinding Atlas2_11
+    21300024: Gelinding Atlas2_12
+    21300026: Gelinding Atlas2_13
+    21300028: Gelinding Atlas2_14
+    21300030: Gelinding Atlas2_15
+    21300032: Gelinding Atlas2_16
+    21300034: Gelinding Atlas2_17
+    21300036: Gelinding Atlas2_18
+    21300038: Gelinding Atlas2_19
+    21300040: Gelinding Atlas2_20
+    21300042: Gelinding Atlas2_21
+    21300044: Gelinding Atlas2_22
+    21300046: Gelinding Atlas2_23
+    21300048: Gelinding Atlas2_24
+    21300050: Gelinding Atlas2_25
+    21300052: Gelinding Atlas2_26
+    21300054: Gelinding Atlas2_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gelinding Atlas2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12021
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_1
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 12021
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_2
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 12021
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_3
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 12027
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10010
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_5
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 10004
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_6
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 10022
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_7
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 10028
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8022
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_9
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 8021
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_10
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 8021
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_11
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 8017
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6024
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 6012
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_14
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 6012
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_15
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 6012
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4003
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_17
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 4007
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_18
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 4007
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_19
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 4003
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2006
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_21
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2002
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_22
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2002
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_23
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 2002
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_25
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 0
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_26
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 0
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gelinding Atlas2_27
+      rect:
+        serializedVersion: 2
+        x: 4815
+        y: 0
+        width: 1600
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
